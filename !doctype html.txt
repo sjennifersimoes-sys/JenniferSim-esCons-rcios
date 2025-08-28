@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jennifer Simões Consórcios</title>
+<meta name="description" content="Consórcios acessíveis com taxas a partir de 0,1% ao mês. Fale com Jennifer Simões Consórcios e realize seu sonho." />
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #ffcccc; /* vermelho claro */
+color: #333;
+}
+header {
+background-color: #ff6666;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header img {
+width: 120px;
+}
+nav ul {
+list-style: none;
+display: flex;
+gap: 15px;
+margin: 0;
+padding: 0;
+}
+nav a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+section {
+padding: 60px 20px;
+text-align: center;
+}
+.btn {
+background-color: #ff4444;
+color: white;
+padding: 12px 25px;
+border: none;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+cursor: pointer;
+display: inline-block;
+margin-top: 20px;
+}
+.planos-grid {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+.plano {
+background-color: #ffe5e5;
+padding: 20px;
+border-radius: 10px;
+width: 200px;
+box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+footer {
+background-color: #ff6666;
+color: white;
+padding: 20px;
+text-align: center;
+}
