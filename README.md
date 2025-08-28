@@ -1,1 +1,115 @@
-# JenniferSim-esCons-rcios
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jennifer Simões Consórcios</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; padding:0; background-color:#ffd6d6; color:#333; }
+  header { background-color:#ff4d4d; color:white; padding:20px; text-align:center; }
+  nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+  section { padding:30px; max-width:900px; margin:auto; }
+  h2 { color:#ff4d4d; }
+  .accordion { background-color:white; border:1px solid #ccc; border-radius:5px; margin:10px 0; }
+  .accordion button { background-color:#ff4d4d; color:white; cursor:pointer; padding:15px; width:100%; border:none; text-align:left; outline:none; font-size:16px; transition:0.3s; border-radius:5px 5px 0 0; }
+  .accordion-content { padding:15px; display:none; background-color:#fff; border-top:1px solid #ccc; }
+  .card-container { display:flex; flex-wrap:wrap; justify-content:space-around; }
+  .card { background:white; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.2); width:250px; margin:15px; padding:15px; text-align:center; }
+  input, button { margin:5px 0; border-radius:5px; border:1px solid #ccc; }
+  input { padding:10px; width:250px; }
+  button { padding:10px 20px; background-color:#ff4d4d; color:white; border:none; cursor:pointer; }
+  footer { background-color:#ff4d4d; color:white; text-align:center; padding:15px; margin-top:30px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Jennifer Simões Consórcios</h1>
+  <nav>
+    <a href="#oque">O que é Consórcio?</a>
+    <a href="#funciona">Como Funciona</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="oque">
+  <h2>O que é Consórcio?</h2>
+  <p>É uma forma planejada de compra, onde pessoas com um mesmo objetivo se reúnem em grupo para adquirir bens ou serviços. Cada participante contribui mensalmente com parcelas, formando um fundo comum. Todos os meses, um ou mais participantes são contemplados e recebem o crédito contratado para compra.</p>
+</section>
+
+<section id="funciona">
+  <h2>Como Funciona a Contemplação?</h2>
+  <div class="accordion">
+    <button>O que é a contemplação?</button>
+    <div class="accordion-content">
+      <p>A contemplação é quando o participante recebe o direito de usar o crédito mesmo sem ter terminado de pagar o consórcio. Pode acontecer por sorteio ou lance durante as assembleias mensais.</p>
+    </div>
+  </div>
+  <div class="accordion">
+    <button>O que é um lance?</button>
+    <div class="accordion-content">
+      <p>É uma oferta que o consorciado faz na assembleia para tentar antecipar sua contemplação. Opcional, mas aumenta suas chances de ser contemplado antes do fim do grupo. Só se paga o lance se for contemplado.</p>
+    </div>
+  </div>
+  <div class="accordion">
+    <button>Tipos de Lance</button>
+    <div class="accordion-content">
+      <h4>Lance Fixo</h4>
+      <p>25% ou 50% sobre a carta de crédito. Critério de desempate: sorteio entre os participantes do lance fixo.</p>
+      <p><strong>Vantagens:</strong> previsibilidade, planejamento e maior número de contemplações.</p>
+      <h4>Lance Livre</h4>
+      <p>O consorciado escolhe o valor que quer ofertar. Ganha quem oferecer mais em relação à carta de crédito.</p>
+      <h4>Lance Embutido</h4>
+      <p>Permite participar do lance sem dinheiro disponível. Limite: até 25% da carta. Exemplo: carta de R$200.000, lance de 25%, contemplação líquida de R$150.000.</p>
+    </div>
+  </div>
+</section>
+
+<section id="valores">
+  <h2>Valores das Cartas</h2>
+  <ul>
+    <li>Carta de moto: a partir de R$15.000</li>
+    <li>Carta de automóvel: a partir de R$45.000</li>
+    <li>Carta de imóvel: a partir de R$120.000</li>
+    <li>Serviços: a partir de R$15.000</li>
+    <li>Caminhão: a partir de R$200.000</li>
+  </ul>
+</section>
+
+<section id="depoimentos">
+  <h2>Depoimentos</h2>
+  <div class="card-container">
+    <div class="card">“Excelente atendimento e orientação clara.” – Maria S.</div>
+    <div class="card">“Consegui minha moto antes do esperado.” – João P.</div>
+    <div class="card">“Profissionalismo e confiança total.” – Ana L.</div>
+    <div class="card">“Recomendo para quem quer planejar o futuro.” – Carlos M.</div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Deixe seu telefone que entrarei em contato</h2>
+  <form action="https://formspree.io/f/xandnrko" method="POST">
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="tel" name="telefone" placeholder="Seu telefone" required>
+    <button type="submit">Enviar</button>
+  </form>
+  <p>Telefone: (11) 91830-3561 | Email: sjennifersimoes@gmail.com | Instagram: @jhennyfer.simoesconsorcios</p>
+</section>
+
+<footer>
+  <p>Jennifer Simões Consórcios © 2025</p>
+</footer>
+
+<script>
+  // Script do accordion
+  const acc = document.querySelectorAll(".accordion button");
+  acc.forEach(button => {
+    button.addEventListener("click", () => {
+      const content = button.nextElementSibling;
+      content.style.display = (content.style.display === "block") ? "none" : "block";
+    });
+  });
+</script>
+
+</body>
+</html>
